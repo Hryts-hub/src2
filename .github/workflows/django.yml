@@ -32,4 +32,4 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER_NAME }}
         key: ${{ secrets.SSH_KEY }}
-        script: cd src2 && git pull
+        script: cd src2 && sudo git pull
